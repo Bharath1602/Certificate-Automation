@@ -1,8 +1,5 @@
 ## How to use SSL/TLS certificates in NodeJS express applications
 
-This repo demonstrates how to use a ssl/tls certificate to be used in a nodejs express application for development purposes.
-
----
 
 ## To start setting up the project
 
@@ -40,14 +37,3 @@ openssl req -new -key key.pem -out csr.pem
 openssl x509 -req -days 365 -in csr.pem -signkey key.pem -out cert.pem
 ```
 
-## Author
-
-- [**Truly Mittal**](https://trulymittal.com)
-
-## Contribute
-
-You can fork this repo and send me a PR.
-
-## License
-
-This project is licensed under the MIT License.
